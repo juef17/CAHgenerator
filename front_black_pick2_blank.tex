@@ -1,0 +1,36 @@
+\documentclass[letterpaper]{article}
+
+\usepackage[margin=0in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabu}
+\usepackage{pagecolor}
+	\pagecolor{black}
+
+
+\addtolength{\parskip}{-1cm}
+\newcommand{\backgroundImage}{Input/Images/front_black_pick2_blank.png}
+
+\begin{document}
+	\definecolor{paleGray}{gray}{0.84}
+	\taburulecolor{paleGray}
+	\null\vfill
+	\begin{center}
+		\begin{tabu}{|l|l|l|}
+			\hline
+			\includegraphics[width=63mm]{\backgroundImage}
+			& \includegraphics[width=63mm]{\backgroundImage}
+			& \includegraphics[width=63mm]{\backgroundImage}\\\hline
+			\includegraphics[width=63mm]{\backgroundImage}
+			& \includegraphics[width=63mm]{\backgroundImage}
+			& \includegraphics[width=63mm]{\backgroundImage}\\\hline
+			\includegraphics[width=63mm]{\backgroundImage}
+			& \includegraphics[width=63mm]{\backgroundImage}
+			& \includegraphics[width=63mm]{\backgroundImage}\\\hline
+		\end{tabu}
+	\end{center}
+	\vfill\null
+\end{document}

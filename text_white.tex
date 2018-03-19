@@ -1,0 +1,39 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage[margin=0in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+\usepackage[document]{ragged2e} % So text isn't justified
+\renewcommand{\baselinestretch}{1.25}
+\usepackage{tgheros}
+	\renewcommand*\familydefault{\sfdefault}
+
+\addtolength{\parskip}{-1cm}
+
+\newcommand{\card}[1]{\hspace{1em} \begin{minipage}[t][84.5mm]{50mm}\vspace{1.5em}\textbf{#1}\end{minipage}}
+\newcommand{\pageOfCards}[9]
+{
+	\null\vfill
+	\begin{center}
+		\begin{tabular}{p{63mm}p{63mm}p{63mm}}
+			\card{#1}
+			& \card{#2}
+			& \card{#3}\\
+			\card{#4}
+			& \card{#5}
+			& \card{#6}\\
+			\card{#7}
+			& \card{#8}
+			& \card{#9}\\
+		\end{tabular}
+	\end{center}
+	\vfill\null
+	\newpage
+}
+
+\begin{document}
+\righthyphenmin 62
+\lefthyphenmin 62
+	\input{latexifiedText}
+\end{document}
