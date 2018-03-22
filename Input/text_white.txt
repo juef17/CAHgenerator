@@ -1,11 +1,11 @@
 GitHub.
-An inexperienceds programmer.
+An inexperienced programmer.
 \LaTeX{} gloves.
 The Not So Short Introduction to The Not So Short Introduction to \LaTeX.
 A very dangerous python.
 Cards Against Humanity.
 Humanity Against Cards.
 Some spéçiâl characters!
-A line and its \\ downstairs neighbor.
+A line and \\ its downstairs neighbor.
 A new page.
 One last card before the rest is filled with blanks.
